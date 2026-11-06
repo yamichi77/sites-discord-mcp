@@ -1,0 +1,15 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1793923200000,
+      "tag": "0000_auth",
+      "breakpoints": true
+    },
+    {"idx":1,"version":"6","when":1793923200001,"tag":"0001_owner_setup","breakpoints":true},
+    {"idx":2,"version":"6","when":1793923200002,"tag":"0002_discord","breakpoints":true}
+  ]
+}

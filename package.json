@@ -1,0 +1,25 @@
+{
+  "name": "sites-discord-mcp",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test policy.test.mjs",
+    "test:integration": "node --test integration.test.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "@better-auth/mcp": "1.7.18",
+    "@better-auth/oauth-provider": "1.7.18",
+    "@modelcontextprotocol/server": "2.3.0",
+    "better-auth": "1.7.18",
+    "zod": "4.6.6"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20260515.1",
+    "esbuild": "0.25.12",
+    "miniflare": "4.20260730.0",
+    "typescript": "5.9.3"
+  },
+  "license": "MIT"
+}
